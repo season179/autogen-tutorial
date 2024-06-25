@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "autogen-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Season Saw <season.saw@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pyautogen = "0.2.30"
+anthropic = "^0.29.0"
+streamlit = "^1.36.0"
+watchdog = "^4.0.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
